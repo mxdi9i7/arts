@@ -2737,9 +2737,15 @@ label span.check-checkbox.active:before {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-.speakers-popup .entry .fw-team-image img {
+#speakers .fw-col-xs-12.fw-col-sm-3 {
   height: 100%;
-  max-width: 120%;
+  max-height: 360px;
+  overflow: hidden;
+}
+.speakers-popup .entry .fw-team-image img {
+  height: 180px;
+  width: 120px;
+  overflow: hidden;
 }
 .speakers-popup .entry .team-url {
   display: none;
