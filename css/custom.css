@@ -246,7 +246,7 @@ article.post .entry-title,
     color: #404040;
 }
 .textblock-shortcode .text-link a {
-    color: #404040 !important;
+    color: #000 !important;
 }
 /* Body Color */
 
@@ -300,7 +300,7 @@ background-image: url(../images/bg/brand2.jpg);
     margin-bottom:0px;
 }
 .desc p span{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Roboto Bold';
     color: #040404;}
 
@@ -350,17 +350,18 @@ background-image: url(../images/bg/brand2.jpg);
 }
 
 .color-orange{
-    color: #ef6715!important; 
+    color: #000!important; 
 }
 
 .color-blue{
-    color: #0e7ac6!important;  
+    color: #000!important;  
 }
 .color-pink{
-    color: #f30c74!important;  
+    color: #000!important;  
 }
 .color-grey{
     color: #727272!important;  
+    font-size: 18px!important;
 }
 
 .font-italic{
@@ -444,7 +445,7 @@ background-image: url(../images/bg/brand2.jpg);
 	margin-bottom:0px !important; 
 }
 .sponsor-text-007{
-	font-size: 24px; 
+	font-size: 64px; 
 	font-family: Droid Italic; 
 	color: #ededed;
 }
@@ -452,7 +453,7 @@ background-image: url(../images/bg/brand2.jpg);
 	color:#fff !important;
 }
 .textblock-shortcode{
-	color:#727272;
+	color:#000;
 }
 .textblock-shortcode p{
 	text-align:left;

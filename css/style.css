@@ -1623,6 +1623,7 @@ article.page blockquote {
 /* HOMEPAGE SHORTCODEs */
 .fw-main-row {
   position: relative;
+  padding-bottom: 0px!important;
 }
 @media only screen and (max-width: 479px) {
   .fw-main-row {
@@ -1917,7 +1918,7 @@ label span.check-checkbox.active:before {
   margin-top: 25px;
 }
 .textblock-shortcode .text-link a {
-  color: #2c2c2c !important;
+  color: #000 !important;
 }
 .textblock-shortcode .text-link a:before {
   content: "\f0da";
@@ -2517,7 +2518,7 @@ label span.check-checkbox.active:before {
   background-size: cover;
   display: block;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 900px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -2722,6 +2723,7 @@ label span.check-checkbox.active:before {
   }
 }
 .speakers-popup .entry {
+
   margin: 0 auto;
   text-align: center;
   width: 150px;
