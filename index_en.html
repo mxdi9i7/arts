@@ -5,11 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PLAN UP | Just another HTML Template</title>
+    <title>Lezhi Wang | Traditional Chinese Landscape Painter</title>
+    <!--jquery js-->
+    <script type='text/javascript' src='js/jquery.js'></script>
     <link rel="icon" href="images/block-quote.png" sizes="32x32" />
     <link rel="icon" href="images/block-quote.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="images/block-quote.png" />
-
+    
     <!--======================
 				All Css
 	========================-->
@@ -29,19 +31,19 @@
     <!--[if lt IE 9]>
       <link rel='stylesheet' id='fw-theme-ie-css'  href='http://planup.haintheme.com/wp-content/themes/planup/plan-up/css/ie.css?ver=1.0' type='text/css' media='all' />
       <![endif]-->
-
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body class="home page page-id-11 page-template page-template-page-templates page-template-template-homepage page-template-page-templatestemplate-homepage-php masthead-fixed full-width footer-widgets grid">
+<body id="body" class="home page page-id-11 page-template page-template-page-templates page-template-template-homepage page-template-page-templatestemplate-homepage-php masthead-fixed full-width footer-widgets grid">
     <div id="page" class="hfeed site">
         <header id="masthead" class="site-header">
             <div class="blog-header-wrapper has_sticky">
                 <div class="blog-header">
                     <div class="site-branding">
                         <h1 class="site-title">
-                        <a title="PLAN UP" href="index.html" rel="home">
-                        <img class="logo-df" src="images/df-logo.png" alt="PLAN UP">
-                        <img class="logo-sticky" src="images/df-logo2.png" alt="PLAN UP">
+                        <a title="logo" href="index.html" rel="home">
+                                Lezhi Wang <br>
+                                <p>Painter of Traditional Chinese Landscape</p>
                         </a>
                      </h1>
                     </div>
@@ -53,11 +55,11 @@
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2065">
                                         <a href="index.html">Home</a>
                                     </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#speakers">Speakers</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2067"><a href="#schedule">Schedule</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#sponsors">Sponsors</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#reservation">buy a ticket</a></li>
-                                    <li class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a href="index.html">English／中文</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#intro">About</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#demo">Portfolio</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2067"><a href="#schedule">Schedules</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#sponsors">Partners</a></li>
+                                    <li class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a href="index.html">中文</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -65,16 +67,17 @@
                     </div>
                 </div>
                 <div id="dl-menu" class="dl-menuwrapper">
-                    <button class="dl-trigger">Open Menu</button>
-                    <ul class="dl-menu primary">
+                    <button class="dl-trigger" style="top: -25px; right: 0;">Open Menu</button>
+                    <ul class="dl-menu primary" style="top: 15px;">
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-2065">
                             <a href="index.html">Home</a>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#speakers">Speakers</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2067"><a href="#schedule">Schedule</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#sponsors">Sponsors</a></li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#reservation">buy a ticket</a></li>
-                        <li class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a href="index.html">English／中文</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#intro">About</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="#demo">Portfolio</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2067"><a href="#schedule">Schedules</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="#sponsors">Partners</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="https://www.eventbrite.com/e/romance-with-mountains-and-rivers-lezhi-wang-solo-exhibition-tickets-37582948611?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing">RSVP Now</a></li>
+                        <li class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a href="index_en.html">中文</a></li>
                     </ul>
                 </div>
                 <!-- /dl-menuwrapper -->
@@ -97,84 +100,19 @@
                                             <div class="header-has-slide">
                                                 <div id="flexslider-56972dd620a48slide" class="flexslider basic" data-sync="#syn-56972dd620a48slide" data-auto="true" data-effect="slide" data-navi="true" data-pager="true" data-slide-speed="9000" data-animation-speed="1000" data-direction="vertical">
                                                     <ul class="slides">
-                                                        <li style="background: url(images/bg/bg-404-1.jpg) center center /cover;" class="slide-entry">
+                                                        <li style="background: url(images/bg1.png) center center /cover;" class="slide-entry">
                                                             <div class="container">
                                                                 <div class="fw-row">
-                                                                    <div class="fw-col-md-7 fw-col-sm-9">
-                                                                        <div class="slider-caption">
-                                                                            <p class="slide-desc"><i class="ion-ios-location-outline"></i> 15-17 December @COLLINGWOOD, VIC 3066</p>
-                                                                            <h2 class="slide-title">2015 ANNUAL <br>  CONFERENCE: <br> INSPIRED UX DESIGN</h2>
-                                                                            <p class="slide-desc2">
-                                                                                <p><span>Join us in 3 days full of inspiration and education on User Experience. 12 speakers will provide insights into their work and offer ways to make us all better at what we do.<br /></span></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="fw-row">
-                                                                    <div class="fw-col-sm-12">
-                                                                        <p class="slide-share">
-                                                                            <img src="images/arrow-slide.png" alt="Share">
-                                                                            <span>SHARE THIS EVENT:&nbsp;&nbsp;&nbsp;   
-																				<a href="http://facebook.com"></a>
-																				<a href="http://twitter.com"></a>
-																				<a href="http://plus.google.com"></a>
-																			</span>
-                                                                        </p>
+                                                                    <div class="slider-caption">
+                                                                        <p class="slide-desc"><i class="ion-ios-location-outline"></i> October 13 - October 23 2017, at 265 West 37th Street, 16th Floor</p>
+                                                                        <h2 class="slide-title">Lezhi Wang <br> Solo Exhibition</h2>
+                                                                        <p class="slide-desc2">
+                                                                            <p>Romance with Mountains and Rivers Lezhi Wang Solo Exhibition</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </li>
-                                                        <li style="background: url(images/bg/header-heor.jpg) center center /cover;" class="slide-entry">
-                                                            <div class="container">
-                                                                <div class="fw-row">
-                                                                    <div class="fw-col-md-7 fw-col-sm-9">
-                                                                        <div class="slider-caption">
-                                                                            <p class="slide-desc"><i class="ion-ios-location-outline"></i> 15-17 December @COLLINGWOOD, VIC 3066</p>
-                                                                            <h2 class="slide-title">2015 ANNUAL <br>CONFERENCE: <br> INSPIRED UX DESIGN</h2>
-                                                                            <p class="slide-desc2">
-                                                                                <p><span>Join us in 3 days full of inspiration and education on User Experience. 12 speakers will provide insights into their work and offer ways to make us all better at what we do.</span></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="fw-row">
-                                                                    <div class="fw-col-sm-12">
-                                                                        <p class="slide-share">
-                                                                            <img src="images/arrow-slide-2.png" alt="Share">
-                                                                            <span>SHARE THIS EVENT:&nbsp;&nbsp;&nbsp;   
-																				<a href="http://facebook.com"></a>
-																				<a href="http://twitter.com"></a>
-																				<a href="http://plus.google.com"></a>
-																			</span>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li style="background: url(images/bg/bg-4041.jpg) center center /cover;" class="slide-entry">
-                                                            <div class="container">
-                                                                <div class="fw-row">
-                                                                    <div class="fw-col-md-7 fw-col-sm-9">
-                                                                        <div class="slider-caption">
-                                                                            <p class="slide-desc"><i class="ion-ios-location-outline"></i> 15-17 December @COLLINGWOOD, VIC 3066</p>
-                                                                            <h2 class="slide-title">2015 ANNUAL <br>  CONFERENCE: <br> INSPIRED UX DESIGN</h2>
-                                                                            <p class="slide-desc2">
-                                                                                <p><span>Join us in 3 days full of inspiration and education on User Experience. 12 speakers will provide insights into their work and offer ways to make us all better at what we do.</span></p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="fw-row">
-                                                                    <div class="fw-col-sm-12">
-                                                                        <p class="slide-share">
-                                                                            <img src="images/arrow-slide-3.png" alt="Share">
-                                                                            <span>SHARE THIS EVENT:&nbsp;&nbsp;&nbsp;   
-																				<a href="http://facebook.com"></a>
-																				<a href="http://twitter.com"></a>
-																				<a href="http://plus.google.com"></a>
-																			</span>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
+                                                       
                                                     </ul>
                                                 </div>
                                             </div>
@@ -189,29 +127,29 @@
                                 <div class="fw-main-row-overlay has-color"></div>
                                 <div class="fw-container ">
                                     <div class="fw-row">
-                                        <div class="fw-col-xs-12">
+                                        <div class="fw-col-xs-12 noPadding">
                                             <div class="coundown-group">
                                                 <div class="pane-left">
                                                     <div class="desc">
-                                                        <p><span>EVENT WILL START IN</span></p>
-                                                    </div>
+                                                        <p><span>Exhibition Countdown</span></p>
+                                                        </div>
                                                     <div class="time-countdown-wrapper">
                                                         <div class="countdown-group">
-                                                            <div class="ht-countdown-hook" data-date="octber 13, 2017 19:00:00" data-day-text="days" data-hour-text="hours" data-min-text="minutes" data-sec-text="seconds"></div>
+                                                            <div class="ht-countdown-hook" data-date="octber 13, 2017 19:00:00" data-day-text="Days" data-hour-text="Hours" data-min-text="Minutes" data-sec-text="Seconds"></div>
                                                         </div>
                                                         <!-- /countdown-group -->
                                                     </div>
-                                                    <a href="#" class="btn btn-circle secondary">buy a ticket</a>
+                                                    <a href="https://www.eventbrite.com/e/romance-with-mountains-and-rivers-lezhi-wang-solo-exhibition-tickets-37582948611?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing" class="btn btn-circle secondary">RSVP Now</a>
                                                 </div>
                                                 <div class="pane-right">
                                                     <div class="video-wrapper">
                                                         <div class="embed-responsive embed-responsive-16by9">
-                                                            <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/117406354?color=ffffff" width="500" height="450"></iframe>
+                                                            <iframe src="https://player.vimeo.com/video/234067298" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                                         </div>
                                                     </div>
                                                     <div class="video-desc">
-                                                        <h3>2016 CONFERENCE HIGHLIGHTS</h3>
-                                                        <span>Bring back memories</span>
+                                                        <h3>2017 Solo Exhibition Partial Demostration</h3>
+                                                        <span>The essence of magnificent beauty of nature</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -219,15 +157,15 @@
                                     </div>
                                 </div>
                             </section>
-                            <section class="fw-main-row">
+                            <section class="fw-main-row" id="Speakers">
                                 <div class="fw-main-row-bg"></div>
                                 <div class="fw-main-row-overlay has-color"></div>
                                 <div class="fw-container ">
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12">
                                             <div class="textblock-shortcode">
-                                                <p><span><span class="black04">Mr. Lezhi Wang，painter of tradition- al Chinese landscape of mountain and rivers:</span>
-                                                    <br /> </span>
+                                                <p><span>
+                                                    
                                                 </p>
                                             </div>
                                         </div>
@@ -238,44 +176,140 @@
                                         </div>
                                     </div>
                                     <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-4">
-                                            <div class="textblock-shortcode icon-box">
-                                                <h3 class="text-heading color-orange"><i class="ion-ios-people-outline inline"></i> <span>He spends almost all his time in Bei- jing, the capital for 800 years the home of Forbidden City, the Temple of Heaven, Summer Palace, embraced by Yan Mountain in the northwest and
-                                                    guarded by West Mountain and surrounded by Yongding River, Chao- bai River and Beijing Hangzhou Grand Canal. ;</span></h3>
-                                                <!-- <span class="color-grey droid-font"><span class="font-14px font-italic">We are proud to introduce 12 speakers from all over the world to participate in this year.</span>
-                                                <br />
-                                                <br /><span class="droid-font font-14px">Quisque placerat quis erat elemen tumeno laoreet. Donec tempor elit scelerisque liber consectetur, inter dum convallis dui.</span></span>
-                                                <div class="text-link">
-                                                    <a target="_self" href="#speakers">View All Speakers</a>
-                                                </div> -->
-                                            </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <img src="/images/selfie.png" type="image/png">
                                         </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-4">
+                                        <div class="fw-col-xs-12 fw-col-sm-9">
                                             <div class="textblock-shortcode icon-box">
-                                                <h3 class="text-heading color-blue"><i class="ion-ios-mic-outline inline"></i> <span>In the past 20 years, he became a full time painter spending his time on touring more than 30 provinces, visiting the magnificent mountains and rivers including Huangshan, Qiling Moutain, Shengnongjia, Zhangjiajie, which laid foundation for his character. Furthermore, he went abroad to ex- pand his vision including Siamese Buddhist temple, Dongying Gar- den, Malacca Strait, Colorado Grand Canyon, Yosemite Redwood Forest, Niagara Falls....;</span></h3>
-                                                <!-- <span class="color-grey droid-font"><span class="font-14px font-italic">We are proud to introduce 12 speakers from all over the world to participate in this year.</span>
-                                                <br />
-                                                <br /><span class="droid-font font-14px">Quisque placerat quis erat elemen tumeno laoreet. Donec tempor elit scelerisque liber consectetur, inter dum convallis dui.</span></span>
-                                                <div class="text-link">
-                                                    <a target="_self" href="#schedule">View Schedule</a>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-4">
-                                            <div class="textblock-shortcode icon-box">
-                                                <h3 class="text-heading color-pink"><i class="ion-ios-ionic-outline inline"></i> <span>He went through 6 decades of life with all kinds of difficulties and devot- ed 50 years of time in painting. Now he is presenting his dozens of works painted in recent 10 years with is heart and might.</span></h3>
-                                                <!-- <span class="color-grey droid-font"><span class="font-14px font-italic">We are proud to introduce 12 speakers from all over the world to participate in this year.</span>
-                                                <br />
-                                                <br /><span class="droid-font font-14px">Quisque placerat quis erat elemen tumeno laoreet. Donec tempor elit scelerisque liber consectetur, inter dum convallis dui.</span></span>
-                                                <div class="text-link">
-                                                    <a target="_self" href="#venue">View Details</a>
-                                                </div> -->
+                                                <span class="black04">Lezhi Wang: Traditional Chinese Landscape Painter</span>
+                                                <br>
+                                                <span>Mr. Lezhi Wang, painter of tradition-
+                                                        al Chinese landscape of mountain
+                                                        
+                                                        and rivers, was born in the 1950’s in
+                                                        Shandong Province, which is beside
+                                                        the east Sea and hometown of sage
+                                                        Confucius.
+                                                        
+                                                        He spends almost all his time in Bei-
+                                                        jing, the capital for 800 years the
+                                                        
+                                                        home of Forbidden City, the Temple
+                                                        of Heaven, Summer Palace, embraced
+                                                        by Yan Mountain in the northwest and
+                                                        
+                                                        guarded by West Mountain and surrounded by Yongding River, Chao-
+                                                        bai River and Beijing Hangzhou Grand Canal. In the past 20 years, he
+                                                        
+                                                        became a full time painter spending his time on touring more than 30
+                                                        provinces, visiting the magnificent mountains and rivers including
+                                                        Huangshan, Qiling Moutain, Shengnongjia, Zhangjiajie, which laid
+                                                        
+                                                        foundation for his character. Furthermore, he went abroad to ex-
+                                                        pand his vision including Siamese Buddhist temple, Dongying Gar-
+                                                        den, Malacca Strait, Colorado Grand Canyon, Yosemite Redwood
+                                                        
+                                                        Forest, Niagara Falls....
+                                                        
+                                                        He went through 6 decades of life with all kinds of difficulties and devot-
+                                                        ed 50 years of time in painting. Now he is presenting his dozens of works
+                                                        
+                                                        painted in recent 10 years with is heart and might.</span></h3>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12">
                                             <div class="fw-divider-space" style="padding-top: 40px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="fw-main-row">
+                                <div class="fw-main-row-bg"></div>
+                                <div class="fw-main-row-overlay has-color"></div>
+                                <div class="fw-container-fluid no-gutter">
+                                    <div class="fw-row">
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/1.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/2.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/zhiwu/3.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/zhiwu/4.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="speakers-popup-wrapper">
+                                <div class="speakers-popup">
+                                    <div class="speakers-popup-content"></div>
+                                </div>
+                            </div>
+
+                            <section class="fw-main-row  padding-zero">
+                                <div class="fw-main-row-bg"></div>
+                                <div class="fw-main-row-overlay black00"></div>
+                                <div style="color:#ffffff;" class="fw-container-fluid no-gutter">
+                                    <div class="fw-row">
+                                        <div class="fw-col-xs-12 fw-col-sm-6 descriptionContent">
+                                            <div class="textblock-shortcode textblock-shortcode-009">
+                                                
+                                                <div class="padding-left-60px text-left descriptionText">
+                                                        The essence of traditional Chinese landscape painting gives the emphasis to the mood and atmosphere of the scenery instead to give the detail description of the reality.
+                                                        The mood and atmosphere is purely produced by the painter. After stepping on mountains and rivers, touched by the magnificent beauty of nature, painter will produce the urges of creating, which will be fermented and developed by adding images and shapes and calculating the way of expression. Eventually the painter will communicate all the ideas and thinkings by his brushes and make a special picture by releasing all his talents and skills at once.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/5.jpg" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/6.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="fw-main-row fw-main-row-007">
+                                <div class="fw-main-row-bg"></div>
+                                <div class="fw-main-row-overlay has-color"></div>
+                                <div class="fw-container-fluid no-gutter">
+                                    <div class="fw-row">
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/7.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/zhiwu/8.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/zhiwu/9.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/zhiwu/10.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -287,22 +321,22 @@
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/1.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/1.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/2.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/2.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/3.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/shan/3.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/4.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/shan/4.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -319,29 +353,22 @@
                                 <div class="fw-main-row-overlay black00"></div>
                                 <div style="color:#ffffff;" class="fw-container-fluid no-gutter">
                                     <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-6">
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/5.jpg" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-3">
+                                            <div class="fw-team style-theme">
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/6.jpg" alt="Brandon Hoffman" /></div>
+                                            </div>
+                                        </div>
+                                        <div class="fw-col-xs-12 fw-col-sm-6 descriptionContent">
                                             <div class="textblock-shortcode textblock-shortcode-009">
-                                                <div class="our-speaker">
-                                                    <br />
-                                                    <br /> <span>Bird-and-flower painting</span>
-                                                    <br />
+                                                
+                                                <div class="padding-left-60px text-left descriptionText">
+                                                        The Chinese painters pursuit the broadness in their minds, and the styles of the painting concentrate to the freeness and easiness, while the essence of the product is far-sighted and abstract. The so called ‘mood and atmosphere’ dedicate to the idea of “formation of changing”. Which is just like the Chinese character, the root is pictograms, then enriched by radical and sound. And the Chinese martial arts, which is developed from imitation of animals, then nurtured by leveraging of forces and harmony. Taking another example, the Chinese cooking, which is based on materials collected from fields and became delicious dishes owing to seasoning and controlling the cooking temperatures.
                                                 </div>
-                                                <div class="padding-left-60px text-left">
-                                                    <br />Bird-and-flower painting is a kind of Chinese painting named after its subject matter. Normally, most bird-and-flower paintings belong to the scholar-artist style of Chinese painting.</div>
-                                                <br />
-                                                <!-- <div class="padding-left-60px">
-                                                    <div class="btn-circle-wrapper text-left;"><a class="btn btn-circle transparent" href="speakers.html">MEET ALL SPEAKERS</a></div>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="iimages/bg/zhiwu/5.jpg" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/6.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -354,117 +381,22 @@
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/7.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/7.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/8.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInLeft"><img src="images/bg/shan/8.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/9.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/shan/9.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-3">
                                             <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/zhiwu/10.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section id="speakers" class="fw-main-row" style="margin-top: 80px;">
-                                <div class="fw-main-row-bg"></div>
-                                <div class="fw-main-row-overlay has-color"></div>
-                                <div class="fw-container-fluid no-gutter">
-                                    <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/1.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/2.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/3.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/4.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <div class="speakers-popup-wrapper">
-                                <div class="speakers-popup">
-                                    <div class="speakers-popup-content"></div>
-                                </div>
-                            </div>
-
-                            <section class="fw-main-row  padding-zero">
-                                <div class="fw-main-row-bg"></div>
-                                <div class="fw-main-row-overlay black00"></div>
-                                <div style="color:#ffffff;" class="fw-container-fluid no-gutter">
-                                    <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-6">
-                                            <div class="textblock-shortcode textblock-shortcode-009">
-                                                <div class="our-speaker">
-                                                    <br />
-                                                    <br /> <span>Shan shui</span>
-                                                    <br />
-                                                </div>
-                                                <div class="padding-left-60px text-left">
-                                                    <br />Shan shui refers to a style of traditional Chinese painting that involves or depicts scenery or natural landscapes, using a brush and ink rather than more conventional paints. Mountains, rivers and often waterfalls are prominent in this art form.</div>
-                                                <br />
-                                                <!-- <div class="padding-left-60px">
-                                                    <div class="btn-circle-wrapper text-left;"><a class="btn btn-circle transparent" href="speakers.html">MEET ALL SPEAKERS</a></div>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="iimages/bg/shan/5.jpg" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/6.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="fw-main-row fw-main-row-007">
-                                <div class="fw-main-row-bg"></div>
-                                <div class="fw-main-row-overlay has-color"></div>
-                                <div class="fw-container-fluid no-gutter">
-                                    <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/7.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/8.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/9.jpg" alt="Brandon Hoffman" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="fw-team style-theme">
-                                                <div class="fw-team-image"><img src="images/bg/shan/10.jpg" alt="Brandon Hoffman" /></div>
+                                                <div class="fw-team-image wow fadeInRight"><img src="images/bg/shan/10.jpg" alt="Brandon Hoffman" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -482,7 +414,7 @@
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12">
                                             <div class="textblock-shortcode event-scheadule">
-                                                <h3><span><span>EVENT SCHEDULE</span><br /><br /></span></h3>
+                                                <h3><span><span>Exhibition Schedules</span><br /><br /></span></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -491,14 +423,14 @@
                                             <div class="ht-meta-block">
                                                 <ul>
                                                     <li>
-                                                        <p class="color-grey">Address:</p>
+                                                        <p class="color-grey">Location:</p>
                                                         <p>265 West 37th Street,
                                                             <br><span> 16th Floor, New York, NY 10018</span></p>
                                                     </li>
                                                     <li style="text-aline: right">
-                                                        <p class="color-grey">Time：</p>
-                                                        <p>start：Fri, Oct 13, 2017, 7:00 PM
-                                                            <br><span> end：Mon, Oct 23, 2017, 7:00 PM </span></p>
+                                                        <p class="color-grey">Time:</p>
+                                                        <p>Opening Gala：Friday October 13, 2017, 7:00 PM
+                                                            <br><span> Closing Ceremony：Monday October 23, 2017, 7:00 PM </span></p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -514,19 +446,17 @@
                                         </div>
                                         <div class="fw-col-xs-12 fw-col-sm-8">
                                             <div class="timelines-container">
-                                                <div class="timelines-navigation">
-                                                    <a href="#period-0" class="active">20TH OCT, 2015</a><a href="#period-1">21ST OCT, 2015</a><a href="#period-2">22ND OCT, 2015</a> </div>
                                                 <ul id="period-0" class="timeline" style="display: block;">
                                                     <li>
                                                         <div class="timeline-badge"></div>
                                                         <div class="timeline-panel">
                                                             <div class="timeline-heading">
-                                                                <h4 class="timeline-date">8:30 AM</h4>
-                                                                <h4 class="timeline-place">MAIN HALL</h4>
+                                                                <h4 class="timeline-date">10/13 - 10/14</h4>
+                                                                <h4 class="timeline-place">Studio Arte</h4>
                                                             </div>
                                                             <div class="timeline-body">
-                                                                <p><span class="text-head">WELCOME SPEECH OF UX CONF 2015</span><span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span></p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
+                                                                <p><span class="text-head">Opening Ceremony</span><span class="text-desc"><br>7 P.M. - 9 P.M.<br><br></span></p>
+                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Artosino</strong></span></span>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -535,158 +465,21 @@
                                                         <div class="timeline-badge"></div>
                                                         <div class="timeline-panel">
                                                             <div class="timeline-heading">
-                                                                <h4 class="timeline-date">10:00 AM</h4>
-                                                                <h4 class="timeline-place">HALL A</h4>
+                                                                <h4 class="timeline-date">10/13 - 10/23</h4>
+                                                                <h4 class="timeline-place">Studio Arte</h4>
                                                             </div>
                                                             <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
+                                                                <p><span class="text-head">Exhibition</span>
+                                                                    <span class="text-desc"><br>9 A.M. - 9 P.M.<br><br></span>
                                                                 </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
+                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Tony Lin, Emma Wang</strong></span></span>
                                                             </div>
                                                         </div>
                                                     </li>
-                                                    <li>
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">12:00 AM</h4>
-                                                                <h4 class="timeline-place">HALL C</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="timeline-inverted">
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">04:00 PM</h4>
-                                                                <h4 class="timeline-place">MAIN HALL</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
+                                                    
                                                     <li>
                                                         <div class="timeline-badge warning">
                                                             <a href="#period-1"><i class="ion-ios-plus-empty"></i></a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul id="period-1" class="timeline" style="display: none;">
-                                                    <li>
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">8:30 AM</h4>
-                                                                <h4 class="timeline-place">HALL B</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="timeline-inverted">
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">10:00 AM</h4>
-                                                                <h4 class="timeline-place">HALL E</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">12:00 AM</h4>
-                                                                <h4 class="timeline-place">HALL A</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="timeline-inverted">
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">04:00 PM</h4>
-                                                                <h4 class="timeline-place">MAIN HALL</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="timeline-badge warning">
-                                                            <a href="#period-2"><i class="ion-ios-plus-empty"></i></a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul id="period-2" class="timeline">
-                                                    <li>
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">2:00 PM</h4>
-                                                                <h4 class="timeline-place">MAIN HALL</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="timeline-inverted">
-                                                        <div class="timeline-badge"></div>
-                                                        <div class="timeline-panel">
-                                                            <div class="timeline-heading">
-                                                                <h4 class="timeline-date">4:00 PM</h4>
-                                                                <h4 class="timeline-place">MAIN HALL</h4>
-                                                            </div>
-                                                            <div class="timeline-body">
-                                                                <p><span class="text-head">LOREM ISPUM SITE MEE JUEY</span>
-                                                                    <span class="text-desc"><br>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus consequuntur in, nobis dolores saepe.<br><br></span>
-
-                                                                </p>
-                                                                <p><span><span class="font-italic color-grey">by&nbsp;<strong>Brandon Hoffman</strong></span></span>
-                                                            </div>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -714,7 +507,7 @@
                                     <div class="fw-row">
                                         <div class="fw-col-xs-12">
                                             <div class="textblock-shortcode">
-                                                <p style="text-align:center"><span class="sponsor-text sponsor-text-007">Sponsors</span>
+                                                <p style="text-align:center"><span class="sponsor-text sponsor-text-007">Partners</span>
                                                 </p>
                                                 <p>&nbsp;</p>
                                                 <p class="text-center"> </p>
@@ -722,21 +515,13 @@
                                         </div>
                                     </div>
                                     <div class="fw-row">
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="media-image-container"><img src="images/brand/brand-git.png" alt="images/brand/brand-git.png" /></div>
-                                            <div class="media-image-container"><img src="images/brand/logo-sass.png" alt="images/brand/logo-sass.png" /></div>
+                                        <div class="fw-col-xs-12 fw-col-sm-6">
+                                            <div class="media-image-container"><h1>Sponsor</h1></div>
+                                            <div class="media-image-container"><img src="images/artosino.png" alt="images/brand/logo-sass.png" /></div>
                                         </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="media-image-container"><img src="images/brand/brand3.png" alt="images/brand/brand3.png" /></div>
-                                            <div class="media-image-container"><img src="images/brand/brand-housetree.png" alt="images/brand/brand-housetree.png" /></div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="media-image-container"><img src="images/brand/logo-sass.png" alt="images/brand/logo-sass.png" /></div>
-                                            <div class="media-image-container"><img src="images/brand/brand3.png" alt="images/brand/brand3.png" /></div>
-                                        </div>
-                                        <div class="fw-col-xs-12 fw-col-sm-3">
-                                            <div class="media-image-container"><img src="images/brand/brand-housetree.png" alt="images/brand/brand-housetree.png" /></div>
-                                            <div class="media-image-container"><img src="images/brand/brand-git.png" alt="images/brand/brand-git.png" /></div>
+                                        <div class="fw-col-xs-12 fw-col-sm-6">
+                                            <div class="media-image-container"><h1>Curators</h1></div>
+                                            <div class="media-image-container"><h3>Tony Lin 林颖明，Emma Wang 王瑞子</h3></div>
                                         </div>
                                     </div>
                                     <div class="fw-row">
@@ -746,7 +531,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <section id="reservation" class="fw-main-row">
+                            <section  class="fw-main-row">
                                 <div class="fw-main-row-bg"></div>
                                 <div class="fw-main-row-overlay has-color"></div>
                                 <div class="fw-container ">
@@ -755,10 +540,153 @@
                                             <div class="fw-divider-space" style="padding-top: 32px;"></div>
                                         </div>
                                     </div>
-                                    <div class="fw-row">
+                                    <div class="fw-row" id="reservation">
                                         <div class="fw-col-xs-12">
                                             <div class="fw-heading fw-heading-center">
-                                                <h3 class='fw-special-title black04 '>BUY A TICKET</h3>
+                                                <h1 class='fw-special-title black04 '>Contact Us</h1>
+                                                <div class="fw-row">
+                                                    <div class="fw-col-xs-12">
+                                                        <div class="registration-wrapper">
+                                                            <div class="register-form wow fadeInLeft">
+                                                                <!-- <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="event-register-form"> -->
+                                                                <form action="#" method="post" class="event-register-form">
+                                                                    <!-- *******PAYPAL******** -->
+                                                                    <input type="hidden" name="cmd" value="_xclick">
+                                                                    <input type="hidden" name="business" value="trang-sale@outlook.com">
+                                                                    <input type="hidden" name="item_name" value="PLAN UP Event Registration">
+                                                                    <input type="hidden" name="item_number" value="1">
+                                                                    <input type="hidden" name="return" value="#">
+                                                                    <input type="hidden" name="rm" value="2">
+                                                                    <input type="hidden" name="cancel_return" value="#">
+                                                                    <!-- ********************** -->
+                                                                    <h3 class="form-title">Contact Form</h3>
+                                                                    <label class="c-label half">
+                                                                        First Name*
+                                                                        <br>
+                                                                        <!-- <input name="FNAME" class="c-input" id="mce-FNAME" type="text" required> -->
+                                                                        <!-- *******PAYPAL******** -->
+                                                                        <input name="first_name" class="c-input required" id="mce-FNAME" type="text" required>
+                                                                        <!-- ********************* -->
+                                                                    </label>
+                                                                    <label class="c-label half float-right">
+                                                                        Last Name*
+                                                                        <br>
+                                                                        <!-- <input name="LNAME" class="c-input" id="mce-LNAME" type="text" required> -->
+                                                                        <!-- *******PAYPAL******** -->
+                                                                        <input name="last_name" class="c-input required" id="mce-LNAME" type="text" required>
+                                                                        <!-- ********************* -->
+                                                                    </label>
+                                                                    <label class="c-label half">
+                                                                        Email*
+                                                                        <br>
+                                                                        <!-- <input name="EMAIL" class="required email c-input" id="mce-EMAIL" type="email" required> -->
+                                                                        <!-- *******PAYPAL******** -->
+                                                                        <input name="email" class="required email c-input" id="mce-EMAIL" type="email" required>
+                                                                        <!-- ********************* -->
+                                                                    </label>
+                                                                    <label class="c-label half float-right">
+                                                                        Phone #
+                                                                        <br>
+                                                                        <input name="PHONE" class="c-input" id="mce-PHONE" type="text">
+                                                                    </label>
+                                                                    <textarea class="c-input" name="" id="textareaInput" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                                                                   
+                                                                    <input id="mc-embedded-subscribe" type="submit" name="subscribe" class="ht-btn fw-btn fw-btn-1" value="Send">
+                                                                </form>
+                                                            </div>
+                                                            <!-- /register-form -->
+                                                            <div class="price-table wow fadeInRight">
+                                                                
+                                                                <div class="price-items">
+                                                                    <h1>Other Contacts</h1>
+                                                                    <div class="entry  " data-price="Bronze Pass ($999)" data-value="999">
+                                                                        <p class="name"><i class="ion-ios-checkmark-empty"></i>By Phone</p>
+                                                                        <div class="features">
+                                                                            <div class="feature-items">
+                                                                                <div class="fw-row">
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i>123-123-1234
+                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i> 123-123-1234
+                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="feature-price">
+                                                                                <strong>Call Now</strong>
+                                                                                <br>
+                                                                                <small>Click to call</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="entry  current" data-price="Silver Pass (most popular) ($1499)" data-value="1499">
+                                                                        <p class="name"><i class="ion-ios-checkmark-empty"></i>By Email</p>
+                                                                        <div class="features">
+                                                                            <div class="feature-items">
+                                                                                <div class="fw-row">
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i>peter.z88228@gmail.com
+                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i> <span class="item">peter.z88228@gmail.com
+                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="feature-price">
+                                                                                <strong>Send Mail</strong>
+                                                                                <br>
+                                                                                <small>Click to send</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="entry" data-price="Gold Pass ($1699)" data-value="1699">
+                                                                        <p class="name"><i class="ion-ios-checkmark-empty"></i>By Mail</p>
+                                                                        <div class="features">
+                                                                            <div class="feature-items">
+                                                                                <div class="fw-row">
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i>123 Main Street, Flushing N.Y. 11365
+                                                                        </span>
+                                                                                    </div>
+                                                                                    <div class="fw-col-sm-12">
+                                                                                        <span class="item"><i class="ion-ios-checkmark-empty"></i>123 Main Street, Flushing N.Y. 11365
+                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="feature-price">
+                                                                                <strong>See Map</strong>
+                                                                                <br>
+                                                                                <small>Google Maps</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /price-table -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="fw-row">
+                                                    <div class="fw-col-xs-12">
+                                                        <div class="fw-divider-space" style="padding-top: 60px;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="fw-row">
+                                                    <div class="fw-col-xs-12">
+                                                        <div class="fw-divider-line">
+                                                            <hr/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                <div style="text-align:center">
+                                                    <a href="http://bit.ly/2x8HaOR" class="btn btn-circle secondary">RSVP Now</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -785,15 +713,18 @@
         <footer id="colophon" class="site-footer" style="background-color: #ffffff;">
             <div class="container">
                 <div class="site-info">
-                    PLAN UP 2016, ALL RIGHT RESERVED BY THEMETOON
+                    Lezhi Wang, Chinese Traditional Landscape Painter
                 </div>
                 <!-- .site-info -->
-                <div class="social-link">
+                <!-- <div class="social-link">
                     <a href="http://facebook.com"></a>
                     <a href="http://twitter.com"></a>
                     <a href="http://plug.google.com"></a>
                     <a href="http://youtube.com"></a>
                     <a href="http://vimeo.com"></a>
+                </div> -->
+                <div class="social-link">
+                        &copy;2017 All Rights Reserved
                 </div>
             </div>
         </footer>
@@ -804,8 +735,6 @@
     <!--=====================
 			All JS
 	======================-->
-    <!--jquery js-->
-    <script type='text/javascript' src='http://coderightsell.com/eventup/js/jquery.js'></script>
     <!--countdown js-->
     <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
     <!--plugins js-->

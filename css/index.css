@@ -1,0 +1,157 @@
+#body * {
+    font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
+}
+.blog-header a {
+    text-shadow: 1px 1px 5px #222;
+}
+.site-title a {
+    color: #fff;
+}
+.menu.primary > li > a {
+    font-weight: 900;
+    text-shadow: 1px 1px 5px #222;
+}
+.blog-header-wrapper.has_sticky.sticky a {
+    text-shadow: none;
+}
+.header-has-slide .slider-caption .slide-title {
+    line-height: 95px;
+}
+.header-has-slide .slide-share {
+    padding-left: 0;
+}
+.btn.primary.btn-circle {
+    border: 1px solid #fff;
+}
+.btn.primary.btn-circle:hover {
+    background-color: #f30c74;
+    border-color: #f30c74;
+    color: white;
+}
+.slider-caption p, .slider-caption h2 {
+    font-weight: 900;
+    text-shadow: 1px 1px 5px #222;
+}
+/* Zoom In #1 */
+.fw-team-image img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}
+.fw-team-image:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.fw-team-image {
+    max-height: 488px;
+    overflow: hidden;
+}
+.textblock-shortcode span {
+    font-size: 22px;
+    line-height: 38px;
+}
+.descriptionText {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    padding-left: 0;
+    font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
+}
+.titleText {
+    font-size: 38px;
+    margin: 10px 0 20px 0;
+    display: block;
+    padding-left: 0;
+}
+.textDivider {
+    background-color: #fff;
+    height: 3px; 
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+div.fw-col-sm-6.fw-col-xs-12.descriptionContent {
+    padding: 1% 5%;
+}
+textarea.c-input {
+    border: 1px solid transparent;
+    padding: 8px 5px;
+    background-color: #f3f4f0;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    margin-top: 3px;
+    color: #727272;
+}
+.registration-wrapper .price-table .price-items .entry .features .feature-price {
+    width: 120px;
+}
+.registration-wrapper .price-table .price-items .entry .features .feature-price:hover {
+    background-color: #f30c74;
+    color: white;
+    cursor: pointer;
+}
+.registration-wrapper .price-table .price-items .entry .features .feature-price:hover strong {
+    color: white;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover {
+    background-color: #fff;
+    color: #f30c74;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover strong, .registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover small {
+    color: #f30c74;
+}
+.price-items h1 {
+    color: #fff;
+    text-align:  center;
+    margin-bottom: 20px;
+}
+h1.fw-special-title.black04 {
+    text-align: center;
+    margin-bottom: 40px;
+    display: block;
+}
+.site-branding p {
+    font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+    .site-title a {
+        font-size: 18px;
+    }
+    .site-title {
+        line-height: 30px;
+    }
+    .home .dl-menuwrapper button {
+        top: 5px;
+        right: 5px;
+    }
+    .dl-menuwrapper .dl-menu {
+        top:45px;
+    }
+    .fw-main-row {
+        margin-bottom: 0 !important;
+    }
+    .header-has-slide .slider-caption .slide-title {
+        line-height: 58px;
+    }
+    section.fw-main-row .flexslider a.flex-next  {
+        color: #fff;
+    }
+    section.fw-main-row .flexslider a.flex-prev  {
+        color: #fff;
+    }
+    #body .noPadding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #body .paddingOne {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .coundown-group .pane-left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
