@@ -1256,7 +1256,8 @@
 	if(!option.text){
 		option.text = '';
 	}
-	var total_class = document.querySelectorAll('.'+option.class).length
+    var total_class = document.querySelectorAll('.'+option.class).length
+    console.log(total_class)
 	var container = document.getElementById('viewer-container')
 	for (var i = 0; i <= total_class -1; i++) {
 		var image_src = document.getElementsByClassName(option.class)[i].getAttribute('src');
