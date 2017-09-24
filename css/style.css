@@ -1267,7 +1267,7 @@ blockquote.right {
  */
 .owl-carousel .owl-video-wrapper {
   position: relative;
-  height: 100%;
+  height: 100%; 
   background: #000;
 }
 .owl-carousel .owl-video-play-icon {
@@ -1787,6 +1787,7 @@ label span.check-checkbox.active:before {
   -moz-border-radius: 25px;
   border-radius: 25px;
   display: inline-block;
+  margin: 15px;
 }
 .btn.secondary {
   background: #f30c74;
@@ -3200,29 +3201,32 @@ label span.check-checkbox.active:before {
 .coundown-group:after {
   clear: both;
 }
-.coundown-group .pane-left {
+.coundown-group .pane-center {
   background: url('../images/bg-metainfo.png') center center repeat;
   width: 100%;
   display: block;
   position: relative;
   padding-bottom: 40px;
   padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 @media only screen and (min-width: 992px) {
-  .coundown-group .pane-left {
+  .coundown-group .pane-center {
     width: 66%;
     padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 18%;
+    padding-left: 80px;
+    padding-right: 40px;
+    margin: 15px auto;
   }
 }
-.coundown-group .pane-left .countdown-group {
+.coundown-group .pane-center .countdown-group {
   margin: 25px 0;
 }
-.coundown-group .pane-left .countdown-group .ht-countdown-hook {
+.coundown-group .pane-center .countdown-group .ht-countdown-hook {
   background: none;
 }
-.coundown-group .pane-left .countdown-group .ht-countdown-hook > span {
+.coundown-group .pane-center .countdown-group .ht-countdown-hook > span {
   background: none;
 }
 .coundown-group .pane-right {
@@ -3233,8 +3237,8 @@ label span.check-checkbox.active:before {
   .coundown-group .pane-right {
     width: 50%;
     position: absolute;
-    right: 15px;
-    top: -60px;
+    right: 0;
+    top: 0;
     height: 100%;
     bottom: 0;
     z-index: 2;
@@ -5538,5 +5542,62 @@ ol {
 }
 .embed-responsive.embed-responsive-4by3 {
   padding-bottom: 75%;
+}
+.viewer-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  float: left;
+}
+.modal-image{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  width: 100%;
+ /*left: 50%;
+  transform: translateX(-50%);*/
+}
+/* Modal Content */
+.viewer-modal-content {
+  background-color: transparent;
+  margin: auto;
+}
+.modal-text{
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+  color: black;
+  background-color: #fff;
+}
+
+/* The Close Button */
+.viewer-modal-close {
+  color: #aaaaaa;
+  float: left;
+  font-size: 88px;
+  font-weight: bold;
+  color: white;
+  position:absolute;
+  top: 0%;
+  left: 5%;
+  z-index: 99;
+}
+
+.viewer-modal-close:hover,
+.viewer-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
