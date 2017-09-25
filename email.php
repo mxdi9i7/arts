@@ -8,9 +8,11 @@ if(isset($_POST['email'])){
     $phone = $_POST['phone'];
     $message = $_POST['message'];
     $send_message = "From ".$fn." ".$ln." / ".$email.", Message :".$message."";
-    mail($to,"Art Message From ".$fn."".$ln,$send_message);
-
-    echo"sent";
+    if(mail($to,"Art Message From ".$fn."".$ln,$send_message)){
+        echo "sent";
+    }else{
+        http_response_code(500);
+    }
 }
 
 ?>
