@@ -1317,14 +1317,14 @@
 		modal.style.display = "none";
     }
     new viewer({
-		scale:'27%',
+		scale:'45%',
 		textEnable : true,
 		text: `
 		王乐知作品
 		`
 	})
     $.get("/list.json",(data,status)=>{
-        var result = JSON.parse(data)
+        var result = data
         for(i = 0; i < result.length;i++){
             document.getElementsByClassName('modal-text')[i].innerHTML=result[i].name
         }
