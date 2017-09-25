@@ -577,9 +577,9 @@
             event.preventDefault();
         });
         // Wow animation
-        if($(document).width() > 480 ){
-            new WOW().init();
-        }
+        // if($(document).width() > 480 ){
+        //     new WOW().init();
+        // }
         /*Flickr Widget*/
         $('.ht-online-gallery.flickr').isotope({
             itemSelector: '.ht-online-gallery.flickr > div',
