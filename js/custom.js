@@ -577,9 +577,9 @@
             event.preventDefault();
         });
         // Wow animation
-        if($(document).width() > 480 ){
-            new WOW().init();
-        }
+        // if($(document).width() > 480 ){
+        //     new WOW().init();
+        // }
         /*Flickr Widget*/
         $('.ht-online-gallery.flickr').isotope({
             itemSelector: '.ht-online-gallery.flickr > div',
@@ -777,36 +777,36 @@
         "nextText": "Next"
     };
     
-    var content = '';
-    $('.fw-team').each(function(index, el) {
-        content += '<div class="entry">' + $(this).html() + '</div>';
-    });
-    $('.speakers-popup-content').html(content);
-    $('.fw-team .team-url').each(function(index, el) {
-        $(this).click(function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            $('.speakers-popup-wrapper').fadeIn();
-            $('.speakers-popup-content').removeData("flexslider");
-            $('.speakers-popup-content').flexslider({
-                selector: ".entry",
-                animation: "fade",
-                slideshow: false, // Boolean: Animate slider automatically
-                startAt: index,
-                easing: "easeInOutExpo", // Easing
-                controlNav: false, // Pagination
-                directionNav: true, // Next, prev
-                prevText: '<i class ="ion-ios-arrow-thin-left"></i>',
-                nextText: '<i class ="ion-ios-arrow-thin-right"></i>',
-            });
-        });
-    });
-    $(document).on('click', function() {
-        $(".speakers-popup-wrapper").fadeOut("slow");
-    });
-    $(".speakers-popup-content").click(function(event) {
-        event.stopPropagation();
-    });
+    // var content = '';
+    // $('.fw-team').each(function(index, el) {
+    //     content += '<div class="entry">' + $(this).html() + '</div>';
+    // });
+    // $('.speakers-popup-content').html(content);
+    // $('.fw-team .team-url').each(function(index, el) {
+    //     $(this).click(function(event) {
+    //         event.preventDefault();
+    //         event.stopPropagation();
+    //         $('.speakers-popup-wrapper').fadeIn();
+    //         $('.speakers-popup-content').removeData("flexslider");
+    //         $('.speakers-popup-content').flexslider({
+    //             selector: ".entry",
+    //             animation: "fade",
+    //             slideshow: false, // Boolean: Animate slider automatically
+    //             startAt: index,
+    //             easing: "easeInOutExpo", // Easing
+    //             controlNav: false, // Pagination
+    //             directionNav: true, // Next, prev
+    //             prevText: '<i class ="ion-ios-arrow-thin-left"></i>',
+    //             nextText: '<i class ="ion-ios-arrow-thin-right"></i>',
+    //         });
+    //     });
+    // });
+    // $(document).on('click', function() {
+    //     $(".speakers-popup-wrapper").fadeOut("slow");
+    // });
+    // $(".speakers-popup-content").click(function(event) {
+    //     event.stopPropagation();
+    // });
     
 	jQuery('.ht-countdown-hook').each(function() {
 		var $thisCountDown = jQuery(this);
@@ -841,36 +841,36 @@
 	});
 	
 	
-	var content = '';
-	$('.fw-team').each(function(index, el) {
-		content += '<div class="entry">' + $(this).html() + '</div>';
-	});
-	$('.speakers-popup-content').html(content);
-	$('.fw-team .team-url').each(function(index, el) {
-		$(this).click(function(event) {
-			event.preventDefault();
-			event.stopPropagation();
-			$('.speakers-popup-wrapper').fadeIn();
-			$('.speakers-popup-content').removeData("flexslider");
-			$('.speakers-popup-content').flexslider({
-				selector: ".entry",
-				animation: "fade",
-				slideshow: false, // Boolean: Animate slider automatically
-				startAt: index,
-				easing: "easeInOutExpo", // Easing
-				controlNav: false, // Pagination
-				directionNav: true, // Next, prev
-				prevText: '<i class ="ion-ios-arrow-thin-left"></i>',
-				nextText: '<i class ="ion-ios-arrow-thin-right"></i>',
-			});
-		});
-	});
-	$(document).on('click', function() {
-		$(".speakers-popup-wrapper").fadeOut("slow");
-	});
-	$(".speakers-popup-content").click(function(event) {
-		event.stopPropagation();
-	});
+	// var content = '';
+	// $('.fw-team').each(function(index, el) {
+	// 	content += '<div class="entry">' + $(this).html() + '</div>';
+	// });
+	// $('.speakers-popup-content').html(content);
+	// $('.fw-team .team-url').each(function(index, el) {
+	// 	$(this).click(function(event) {
+	// 		event.preventDefault();
+	// 		event.stopPropagation();
+	// 		$('.speakers-popup-wrapper').fadeIn();
+	// 		$('.speakers-popup-content').removeData("flexslider");
+	// 		$('.speakers-popup-content').flexslider({
+	// 			selector: ".entry",
+	// 			animation: "fade",
+	// 			slideshow: false, // Boolean: Animate slider automatically
+	// 			startAt: index,
+	// 			easing: "easeInOutExpo", // Easing
+	// 			controlNav: false, // Pagination
+	// 			directionNav: true, // Next, prev
+	// 			prevText: '<i class ="ion-ios-arrow-thin-left"></i>',
+	// 			nextText: '<i class ="ion-ios-arrow-thin-right"></i>',
+	// 		});
+	// 	});
+	// });
+	// $(document).on('click', function() {
+	// 	$(".speakers-popup-wrapper").fadeOut("slow");
+	// });
+	// $(".speakers-popup-content").click(function(event) {
+	// 	event.stopPropagation();
+	// });
 	
 	
 //	var feed = new Instafeed({
