@@ -3211,9 +3211,18 @@ label span.check-checkbox.active:before {
   margin: 0 auto;
   text-align: center;
 }
+.ht-btn.fw-btn.fw-btn-1 {
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.ht-btn.fw-btn.fw-btn-1:hover {
+  color: #f30c74;
+  background-color: #dbdbdb;
+}
 @media only screen and (min-width: 992px) {
   .coundown-group .pane-center {
-    width: 66%;
+    width: 100%;
     padding-top: 50px;
     padding-left: 80px;
     padding-right: 40px;
