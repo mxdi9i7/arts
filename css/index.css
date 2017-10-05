@@ -24,8 +24,8 @@
     border: 1px solid #fff;
 }
 .btn.primary.btn-circle:hover {
-    background-color: #f30c74;
-    border-color: #f30c74;
+    background-color: #3399cc;
+    border-color: #3399cc;
     color: white;
 }
 .slider-caption p, .slider-caption h2 {
@@ -52,11 +52,11 @@
     line-height: 38px;
 }
 .descriptionText {
-    font-size: 18px;
     line-height: 32px;
     letter-spacing: 1px;
     margin: 20px 0;
     padding-left: 0;
+    font-size: calc(0.5vw + 0.5vh + 1vmin);
     font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
 }
 .titleText {
@@ -74,6 +74,7 @@
 }
 div.fw-col-sm-6.fw-col-xs-12.descriptionContent {
     padding: 1% 5%;
+    background-color: #555;
 }
 textarea.c-input {
     border: 1px solid transparent;
@@ -85,11 +86,14 @@ textarea.c-input {
     margin-top: 3px;
     color: #727272;
 }
+.black01 {
+    background-color: #555;
+}
 .registration-wrapper .price-table .price-items .entry .features .feature-price {
     width: 120px;
 }
 .registration-wrapper .price-table .price-items .entry .features .feature-price:hover {
-    background-color: #f30c74;
+    background-color: #3399cc;
     color: white;
     cursor: pointer;
 }
@@ -98,15 +102,29 @@ textarea.c-input {
 }
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover {
     background-color: #fff;
-    color: #f30c74;
+    color: #3399cc;
 }
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover strong, .registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover small {
-    color: #f30c74;
+    color: #3399cc;
 }
 .price-items h1 {
     color: #fff;
-    text-align:  center;
-    margin-bottom: 20px;
+    text-align:  left;
+    margin-bottom: 14px;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price {
+    background-color: transparent;
+    border: 1px solid #444;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price strong {
+    color: #444;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover {
+    background-color: #3399cc;
+    color: #fff;
+}
+.registration-wrapper .price-table .price-items .entry.current .features .feature-price:hover strong {
+    color: #fff;
 }
 h1.fw-special-title.black04 {
     text-align: center;
@@ -115,6 +133,50 @@ h1.fw-special-title.black04 {
 }
 .site-branding p {
     font-size: 18px;
+}
+.slides .container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.header-has-slide .slider-caption .slide-desc {
+    font-size: 22px;
+}
+.slider-caption p, .slider-caption h2 {
+    font-size: 22px;
+}
+.black04 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.registration-wrapper .price-table {
+    background-color: white;
+    box-shadow: 14px 23px 30px 0px rgba(62, 62, 62, 0.2);
+    border: 1px solid rgba(114, 114, 114, 0.1);
+}
+.registration-wrapper .price-table .price-items {
+    background-color: white;
+    padding-bottom: 20px;
+}
+.registration-wrapper .price-table .price-items .entry .features {
+    background-color: #fafafa;
+}
+.registration-wrapper .price-table .price-items * {
+    color: #444;
+}
+.social-link {
+    font-size: 12px;
+}
+@media only screen and (max-width: 1062px) {
+    .descriptionText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 875px) {
+    .descriptionText {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
 @media only screen and (max-width: 500px) {
     .site-title a {

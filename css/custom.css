@@ -115,20 +115,20 @@ article.post .post-cates a,
 .timeline > li:hover .timeline-badge,
 .ht-btn-wrapper .fw-btn.fw-btn-1,
 .fw-btn.fw-btn-1 {
-    background-color: #f30c74;
+    background-color: #3399cc;
 }
 ::-webkit-scrollbar-thumb {
-    background: #f30c74;
+    background: #3399cc;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: #f30c74;
+    background: #3399cc;
     opacity: 0.5;
 }
 Mozilla based browsers::-moz-selection {
-    background-color: #f30c74;
+    background-color: #3399cc;
 }
 Works in Safari::selection {
-    background-color: #f30c74;
+    background-color: #3399cc;
 }
 #back-to-top,
 .color-primary,
@@ -153,7 +153,7 @@ section.fw-main-row .flexslider a.flex-prev,
 .fw-block-info .info-text a:hover,
 .timeline > li > .timeline-panel h4.timeline-place,
 social-link a:hover {
-    color: #f30c74;
+    color: #3399cc;
 }
 .timeline > li:hover .timeline-badge,
 .timeline > li > .timeline-badge,
@@ -167,10 +167,10 @@ table > tbody > tr > td,
 table > tfoot > tr > td,
 article.post .sticky-gim,
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price {
-    border-color: #f30c74;
+    border-color: #3399cc;
 }
 .blog-navigation.sc.sticky .main-navigation.sc {
-    box-shadow: 1px 0px 5px 0px #f30c74;
+    box-shadow: 1px 0px 5px 0px #3399cc;
 }
 /* Secondary color */
 
@@ -212,7 +212,7 @@ article.post a:hover,
 }
 .timelines-navigation a:hover,
 .timelines-navigation a.active {
-    background-color: #f30c74;
+    background-color: #3399cc;
     opacity: 1;
 }
 /* Heading color */

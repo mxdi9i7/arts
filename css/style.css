@@ -845,7 +845,7 @@ article.post .sticky-gim,
 .post-paging .page-numbers.current,
 #commentform input#submit:hover,
 .meta.meta-social a.sd-button:hover:before {
-  color: #f30c74;
+  color: #3399cc;
 }
 .bg-color-primary,
 article.page .post-cates a,
@@ -856,7 +856,7 @@ article.page .post-cates a,
 article.post .post-cates a,
 .post-paging .page-numbers,
 #commentform input#submit {
-  background-color: #f30c74;
+  background-color: #3399cc;
 }
 .color-second,
 article.page a:hover,
@@ -1514,7 +1514,7 @@ article.page blockquote {
 }
 .notfound-wrapper .sub-heading {
   text-transform: uppercase;
-  background-color: #f30c74;
+  background-color: #3399cc;
   color: #fff;
   line-height: 35px;
   font-size: 24px;
@@ -1790,11 +1790,11 @@ label span.check-checkbox.active:before {
   margin: 15px;
 }
 .btn.secondary {
-  background: #f30c74;
-  border: 1px solid #f30c74;
+  background: #3399cc;
+  border: 1px solid #3399cc;
 }
 .btn.secondary:hover {
-  color: #f30c74;
+  color: #3399cc;
   background-color: transparent;
 }
 .btn.transparent {
@@ -1803,8 +1803,8 @@ label span.check-checkbox.active:before {
 }
 .btn.transparent:hover {
   color: #fff;
-  background-color: #f30c74;
-  border-color: #f30c74;
+  background-color: #3399cc;
+  border-color: #3399cc;
 }
 .btn.black {
   background: #000;
@@ -1884,7 +1884,7 @@ label span.check-checkbox.active:before {
   margin-right: 5px;
 }
 .fw-block-info .info-text a:hover {
-  color: #f30c74 !important;
+  color: #3399cc !important;
 }
 .fw-block-info .info-text h1,
 .fw-block-info .info-text h2,
@@ -1928,7 +1928,7 @@ label span.check-checkbox.active:before {
   margin-right: 5px;
 }
 .textblock-shortcode .text-link a:hover {
-  color: #f30c74 !important;
+  color: #3399cc !important;
 }
 .textblock-shortcode .text-heading {
   *zoom: 1;
@@ -2044,7 +2044,7 @@ label span.check-checkbox.active:before {
   position: relative;
 }
 .timeline > li:hover .timeline-badge {
-  background-color: #f30c74;
+  background-color: #3399cc;
 }
 .timeline > li:before,
 .timeline > li:after {
@@ -2084,7 +2084,7 @@ label span.check-checkbox.active:before {
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  border: 4px solid #f30c74;
+  border: 4px solid #3399cc;
 }
 .timeline > li.timeline-inverted {
   margin-top: -75px;
@@ -2140,8 +2140,8 @@ label span.check-checkbox.active:before {
 }
 .timelines-navigation a:hover,
 .timelines-navigation a.active {
-  background-color: #f30c74;
-  border: 1px solid #f30c74;
+  background-color: #3399cc;
+  border: 1px solid #3399cc;
   color: #fff;
 }
 .timelines-navigation a:hover,
@@ -2190,10 +2190,10 @@ label span.check-checkbox.active:before {
 }
 .fw_form_fw_form input[type=submit] {
   width: auto;
-  border: 1px solid #f30c74;
+  border: 1px solid #3399cc;
   color: #fff;
   position: absolute;
-  background-color: #f30c74;
+  background-color: #3399cc;
   right: 5px;
   bottom: 15px;
   padding: 6px 40px;
@@ -2212,8 +2212,8 @@ label span.check-checkbox.active:before {
 }
 .fw_form_fw_form input[type=submit]:hover {
   background-color: #fff;
-  color: #f30c74;
-  border-color: #f30c74;
+  color: #3399cc;
+  border-color: #3399cc;
 }
 .ht-flash-message .fw-flash-messages {
   text-align: center;
@@ -2291,7 +2291,7 @@ label span.check-checkbox.active:before {
 }
 .wrap-twitter.feed .tweet-navigation a:hover,
 .wrap-twitter.feed .tweet-navigation a.current {
-  background-color: #f30c74;
+  background-color: #3399cc;
 }
 .tweets .tweet-entry {
   display: none;
@@ -2385,8 +2385,8 @@ label span.check-checkbox.active:before {
   margin: 30px 15px 0px 15px;
 }
 .slide-info .owl-nav > div:hover {
-  border-color: #f30c74;
-  background-color: #f30c74;
+  border-color: #3399cc;
+  background-color: #3399cc;
 }
 @media only screen and (min-width: 1200px) {
   .slide-info .owl-nav > div {
@@ -2508,7 +2508,7 @@ label span.check-checkbox.active:before {
 }
 .ht-accordion .accordion-title.active {
   color: #fff;
-  background: #f30c74;
+  background: #3399cc;
 }
 .ht-accordion .accordion-content {
   padding: 8px 25px;
@@ -2611,7 +2611,7 @@ label span.check-checkbox.active:before {
 }
 .ht-carousel.speakers .owl-nav > div {
   padding: 10px 16px 6px 16px;
-  background-color: #f30c74;
+  background-color: #3399cc;
   display: inline-block;
   margin: 0 1px;
 }
@@ -2798,8 +2798,8 @@ label span.check-checkbox.active:before {
   text-align: right;
 }
 .speakers-popup .flex-prev:hover {
-  border-color: #f30c74;
-  background-color: #f30c74;
+  border-color: #3399cc;
+  background-color: #3399cc;
   color: #fff;
 }
 .speakers-popup .flex-next {
@@ -2815,8 +2815,8 @@ label span.check-checkbox.active:before {
   border-radius: 50%;
 }
 .speakers-popup .flex-next:hover {
-  border-color: #f30c74;
-  background-color: #f30c74;
+  border-color: #3399cc;
+  background-color: #3399cc;
   color: #fff;
 }
 .fw-team .fw-team-desc {
@@ -3027,7 +3027,7 @@ label span.check-checkbox.active:before {
   margin: 30px 0;
   display: block;
   text-align: center;
-  background-color: #f30c74;
+  background-color: #3399cc;
   width: 100%;
   -webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -3036,8 +3036,8 @@ label span.check-checkbox.active:before {
 }
 .apimap_form input[type=submit]:hover {
   background-color: transparent;
-  color: #f30c74;
-  border-color: #f30c74;
+  color: #3399cc;
+  border-color: #3399cc;
 }
 @media only screen and (min-width: 768px) {
   .apimap_form {
@@ -3217,7 +3217,7 @@ label span.check-checkbox.active:before {
   cursor: pointer;
 }
 .ht-btn.fw-btn.fw-btn-1:hover {
-  color: #f30c74;
+  color: #3399cc;
   background-color: #dbdbdb;
 }
 @media only screen and (min-width: 992px) {
@@ -3457,8 +3457,8 @@ label span.check-checkbox.active:before {
   padding-left: 4px;
 }
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price {
-  background-color: #f30c74;
-  border-color: #f30c74;
+  background-color: #3399cc;
+  border-color: #3399cc;
 }
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price strong,
 .registration-wrapper .price-table .price-items .entry.current .features .feature-price small {
@@ -3533,8 +3533,8 @@ label span.check-checkbox.active:before {
 .event-register-form select[type=submit]:hover,
 .event-register-form span.price-display[type=submit]:hover {
   background-color: #fff;
-  color: #f30c74;
-  border-color: #f30c74;
+  color: #3399cc;
+  border-color: #3399cc;
 }
 .event-register-form input:focus {
   border-color: #727272;
@@ -3849,8 +3849,8 @@ label span.check-checkbox.active:before {
 }
 .sticky li.reserve a:hover {
   color: #fff !important;
-  background-color: #f30c74 !important;
-  border-color: #f30c74 !important;
+  background-color: #3399cc !important;
+  border-color: #3399cc !important;
 }
 @media only screen and (min-width: 768px) {
   .menu.primary > li {
@@ -3894,8 +3894,8 @@ label span.check-checkbox.active:before {
   }
   .menu.primary li.reserve a:hover {
     color: #fff;
-    background-color: #f30c74;
-    border-color: #f30c74;
+    background-color: #3399cc;
+    border-color: #3399cc;
   }
   .page-template-template-homepage .menu.primary > li.current-menu-item,
   .page-template-template-homepage .menu.primary > li.current_page_ancestor,
@@ -4735,7 +4735,7 @@ footer .social-link a[href*="flickr"]:before {
   transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 #back-to-top:hover {
-  color: #f30c74;
+  color: #3399cc;
   opacity: 1!important;
 }
 /* III.4. SIDEBAR */
@@ -4815,7 +4815,7 @@ footer .social-link a[href*="flickr"]:before {
   display: inline-block;
 }
 .widget_tag_cloud a:hover {
-  border-color: #f30c74;
+  border-color: #3399cc;
 }
 .widget_banner_ad .banner-ad a {
   position: relative;
@@ -4880,7 +4880,7 @@ footer .social-link a[href*="flickr"]:before {
 }
 .widget_mailchimp_form button:hover {
   background-color: transparent;
-  border-color: #f30c74;
+  border-color: #3399cc;
 }
 .widget_mailchimp_form .desctiption {
   margin-bottom: 10px;
@@ -5080,7 +5080,7 @@ article.post.format-gallery div[class*="gallery-columns"] .gallery-item {
 }
 .post-paging .page-numbers:hover,
 .post-paging .page-numbers.current {
-  border: 2px solid #f30c74;
+  border: 2px solid #3399cc;
   background-color: transparent;
 }
 .post-author {
@@ -5191,7 +5191,7 @@ article.post.format-gallery div[class*="gallery-columns"] .gallery-item {
   transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .comment-list .block-2:hover {
-  border: 1px solid #f30c74;
+  border: 1px solid #3399cc;
   background-color: #f7e6e6;
 }
 .comment-list .comment-body {
@@ -5290,7 +5290,7 @@ article.post.format-gallery div[class*="gallery-columns"] .gallery-item {
 }
 #commentform input#submit:hover {
   background-color: transparent;
-  border: 2px solid #f30c74;
+  border: 2px solid #3399cc;
 }
 .comments-title {
   margin-bottom: 25px;
@@ -5310,11 +5310,11 @@ article.post.format-gallery div[class*="gallery-columns"] .gallery-item {
   padding: 5px;
   line-height: 2em;
   vertical-align: top;
-  border-top: 1px solid #f30c74;
+  border-top: 1px solid #3399cc;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #f30c74;
+  border-bottom: 2px solid #3399cc;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -5325,7 +5325,7 @@ article.post.format-gallery div[class*="gallery-columns"] .gallery-item {
   border-top: 0;
 }
 .table > tbody + tbody {
-  border-top: 2px solid #f30c74;
+  border-top: 2px solid #3399cc;
 }
 .table .table {
   background-color: #eee;
@@ -5344,11 +5344,11 @@ table > tfoot > tr > td {
   padding: 5px;
   line-height: 2em;
   vertical-align: top;
-  border-top: 1px solid #f30c74;
+  border-top: 1px solid #3399cc;
 }
 table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #f30c74;
+  border-bottom: 2px solid #3399cc;
 }
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,
@@ -5359,7 +5359,7 @@ table > thead:first-child > tr:first-child > td {
   border-top: 0;
 }
 table > tbody + tbody {
-  border-top: 2px solid #f30c74;
+  border-top: 2px solid #3399cc;
 }
 table .table {
   background-color: #eee;
