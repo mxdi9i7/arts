@@ -1325,6 +1325,7 @@
 		`
                         })
                         $.get("/list.json", (data, status) => {
+						var result = data;
                             for (i = 0; i < result.length; i++) {
                                 document.getElementsByClassName('modal-text')[i].innerHTML = result[i].name
                             }
